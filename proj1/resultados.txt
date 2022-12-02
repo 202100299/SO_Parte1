@@ -1,0 +1,16 @@
+ex04_11.txt 23 teste - 1s V 12.7 uSec
+ex05.txt 130 teste - 1s V 20.9 uSec
+ex07.txt 107 teste - 1s V 36.4
+ex08.txt 280 teste - 1s V 44.7
+ex10_269.txt 295 teste - 1s V 144.4
+ex20_878.txt 1024 teste - 1s V 183693.3
+ex23.txt 9767 teste - 1s V 336893.5
+ex25.txt 4506 teste - 1s F(1) 2s F(6) 3s F(9) 4s F-(6 e 10)V 1797141.3 uSec 5s F(8 e 9) 6s F(9) 7s V 2391174.9 uSec
+ex30.txt 4509 teste - 7s F (0) 10s F(0-3)
+ex40.txt 7488 teste - 10s F(0) maxvalor 6120 20s F(0) maxValue 6243
+ex50_1.txt 8373 teste - 10sO F(0) maxvalor 6374 20sO F(0) maxValue 6760
+ex50_2.txt 1396 teste - 10sO F(0) maxvalor 1336 20sO F(0) maxValue 1376
+ex100_1.txt 9147 teste - 10sO F(0) maxvalor 5505 20sO F(0) maxValue 5694
+ex200_1.txt 11238 teste - 10sO F(0) maxvalor 5169 20sO F(0) maxValue 5084
+
+make && make run var1=kp var2=1 var3=testes/ex200_1.txt var4=10 var5=10
